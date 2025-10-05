@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener((msg, _s, send) => {
 
 
 
-const GEMINI_API_KEY = "AIzaSyAk5vYvsq-UL55CjRMRnXJtZrUCA9o9__Q"; // Replace with your actual key
+const GEMINI_API_KEY = "<Your API KEY>"; // Replace with your actual key
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(GEMINI_API_KEY)}`;
 
 async function rewrite(userQuery) {
